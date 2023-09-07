@@ -1,0 +1,108 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the navigation */
+/* These rules style the navigation bar, making it visually appealing and functional. */
+.navbar ul {
+  list-style-type: none; /* Removes bullet points from list items */
+  background-color: #333; /* Sets a dark background color */
+  text-align: right; /* Aligns navigation items to the right */
+}
+
+.navbar li {
+  display: inline; /* Makes list items display horizontally */
+  margin-right: 20px; /* Adds spacing between navigation items */
+}
+
+.navbar a {
+  text-decoration: none; /* Removes underlines from navigation links */
+  color: #fff; /* Sets the text color to white */
+}
+
+/* Style the header */
+/* This section styles the header, giving it a distinct appearance. */
+.header {
+  background-color: #007BFF; /* Sets a blue background color */
+  color: #fff; /* Sets text color to white */
+  text-align: center; /* Centers the header content */
+  padding: 20px 0; /* Adds padding for spacing */
+}
+
+.header-title {
+  font-size: 24px; /* Increases the font size of the header title */
+}
+
+/* Style the main content container */
+/* These rules style the main content container, giving it structure and spacing. */
+.container {
+  max-width: 800px; /* Sets a maximum width for content */
+  margin: 20px auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds padding for spacing inside the container */
+}
+
+/* Style sections */
+/* This section styles individual content sections, providing a consistent layout for each. */
+.section {
+  margin-bottom: 30px; /* Adds spacing between sections */
+  padding: 20px; /* Adds padding inside sections */
+  border: 1px solid #ccc; /* Adds a border around sections */
+  background-color: #f8f8f8; /* Sets a light gray background color */
+  border-radius: 5px; /* Rounds the corners of sections */
+}
+
+.section-title {
+  font-size: 20px; /* Sets the font size for section titles */
+  color: #333; /* Sets the text color for section titles */
+  margin-bottom: 10px; /* Adds spacing below section titles */
+}
+
+/* Style skills list */
+/* This rule styles the skills list, using bullet points and indentation. */
+.skills-list {
+  list-style-type: disc; /* Sets bullet points for the skills list */
+  margin-left: 20px; /* Adds indentation to the list */
+}
+
+/* Style contact info list */
+/* This rule styles the contact info list, removing bullet points and indentation. */
+.contact-list {
+  list-style-type: none; /* Removes bullet points from the list */
+  margin-left: 0; /* Resets indentation for the list */
+}
+
+/* Style the form and inputs */
+/* These rules style the contact form, labels, and input fields. */
+form {
+  text-align: left; /* Aligns form elements to the left */
+}
+
+label {
+  display: block; /* Displays labels as block elements for better spacing */
+  margin-bottom: 5px; /* Adds spacing below labels */
+  font-weight: bold; /* Makes labels bold */
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%; /* Sets input fields to 100% width */
+  padding: 10px; /* Adds padding inside input fields */
+  margin-bottom: 15px; /* Adds spacing below input fields */
+  border: 1px solid #ccc; /* Adds a border around input fields */
+  border-radius: 5px; /* Rounds the corners of input fields */
+}
+
+.submit-button {
+  background-color: #007BFF; /* Sets a blue background color for the submit button */
+  color: #fff; /* Sets text color to white */
+  border: none; /* Removes borders from the button */
+  padding: 10px 20px; /* Adds padding to the button */
+  border-radius: 5px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Changes the button color on hover for interactivity */
+}
